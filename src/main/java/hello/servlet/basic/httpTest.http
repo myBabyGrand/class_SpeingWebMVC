@@ -1,0 +1,33 @@
+GET http://localhost:8080/response-header
+
+
+###
+POST http://localhost:8080/request-body-json
+Content-Type: application/json
+
+{"username": "hello", "age": 30}
+
+###
+POST http://localhost:8080/request-body-string
+Content-Type:  text/plain
+
+hello!!!!
+
+###
+POST http://localhost:8080/request-param
+Content-Type: application/x-www-form-urlencoded
+
+username=PARK&age=36
+
+###
+POST http://localhost:8080/request-header
+Content-Type: text/plain
+
+{hello!}
+
+###
+http://localhost:8080/request-header
+
+
+
+
