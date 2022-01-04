@@ -4,6 +4,3 @@
  - Section3. Servlet, JSP, MVC Pattern
  - Section4. Making MVC Framework
  - Section5. Spring MVC - Understanding of Structure
- - Section6. Spring MVC - Basic functions
- - Section7. Spring MVC - Making Web page
- - Section8. Next
