@@ -17,5 +17,8 @@ public class ModelView {
         this.viewName = viewName;
     }
 
-
+    public ModelView(String viewName, Map<String, Object> model) {
+        this.viewName = viewName;
+        this.model = model;
+    }
 }

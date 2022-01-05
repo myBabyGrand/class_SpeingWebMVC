@@ -17,7 +17,7 @@ import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
 
-@WebServlet(name = "frontControllerV3", urlPatterns = "/front-controller/v3/*")
+@WebServlet(name = "frontControllerServletV3", urlPatterns = "/front-controller/v3/*")
 public class FrontControllerServletV3 extends HttpServlet{
     public static final String preFixView = "/WEB-INF/views/";
     public static final String postFixView = ".jsp";
